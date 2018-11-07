@@ -1,32 +1,42 @@
-.App {
-  text-align: center;
+
+/* .video-react{
+  color:red;
+} */
+.video-react .video-react-play-progress {
+  background-color: red;
+}
+.video-react .video-react-play-progress:before {
+  position: absolute;
+  top: -0.333333333333333em;
+  right: -0.5em;
+  font-size: 0.9em;
+}
+.video-react .video-react-play-control{
+  color: red
+}
+.video-react-volume-menu-button{
+  color: red
+}
+.video-react .video-react-time-tooltip,
+.video-react .video-react-mouse-display:after,
+.video-react .video-react-play-progress:after {
+background-color: red
+}
+.video-react .video-react-progress-holder .video-react-play-progress, .video-react .video-react-progress-holder .video-react-load-progress, .video-react .video-react-progress-holder .video-react-tooltip-progress-bar, .video-react .video-react-progress-holder .video-react-load-progress{
+  position: static;
+  color:red;
+}
+.video-react .video-react-progress-control .video-react-mouse-display{
+  height: 80%
+}
+.video-react .video-react-progress-holder .video-react-play-progress, .video-react .video-react-progress-holder .video-react-load-progress, .video-react .video-react-progress-holder .video-react-tooltip-progress-bar, .video-react .video-react-progress-holder .video-react-load-progress {
+  height: 0.0em;
+}
+.video-react .video-react-load-progress {
+  background-color: red;
+  //color:red;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .video-react .video-react-load-progress {
+  background-color: red
+} */
